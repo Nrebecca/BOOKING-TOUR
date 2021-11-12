@@ -44,7 +44,7 @@
     /* font-size: 10px; */
     float: right; 
 }
-.topnav { 
+.topnav{
     background-color: green;
     width: 100%;
     /* height: 150px; */
@@ -55,7 +55,7 @@
 }
 .topnav a{
    
-    /* background-color: rgb(89, 143, 89); */
+    
 padding: 10px;
 float: right;
 color: white;
@@ -66,16 +66,26 @@ text-decoration: none;
         float: right;
         width: 90%;
         margin: left;
+        /* text-decoration: none; */
+        /* background-color: rgb(73, 100, 73); */
 
     } 
 
 .LOGO{ width: 10%;
     height: 50px;
     margin-top: 1%;
+    margin-bottom: 1%;
 
     
 }
-h1{ margin-left: 20%;    
+.home-containner h1{
+     margin-left: 1%;  
+     font-size: 60px; 
+     /* background-color : white;  */
+     /* background-position: center; */
+     
+     margin-top: 50px;
+     color: black
    
 
 
@@ -88,42 +98,46 @@ h1{ margin-left: 20%;
 
 }
 .quote-div{
-    background-color: rgb(158, 175, 169);
-    width: 330px;
-    height: 220px;
+    background-color: rgba(112, 110, 236, 0.795);
+    width: 30%;
+    height: 60vh;
     float: right;
-    margin-right: 40px;
+    margin-right: 45px;
     padding: 30px;
 }
-button{ text-align: center;
-    width: 60%;
+button{
+    text-align: center;
+    width: 50%;
     height:50px;
-    margin-top: 40px;
-    margin-left: 50px;
-    border-radius: 10px;
+    margin-top: 35%;
+    margin-left: 70px;
+    border-radius: 20px;
+
+
+    
     
 
 }
 .tour-section-container{
     width: 100%;
-    height: 120vh;
-    background-color: white;
+    height: 100vh;
+    background-color: whitesmoke
 }
 .tour-section-container img{
-    float: left;
+    /* float: left; */
     width: 600px;
     height: 500px;
-    margin-left: 50%;
+    margin-left: 300px;
     /* padding: 30%; */
 }
 
-.booking-div{
-    background-color: cyan;
+/* .booking-div{ */
+    /* background-color: cyan; */
 
-}
+/* } */
 
 body{
-    background-image: url(./image/pic.jpg);
+    background-image: url(./image/pexels.jpg);
      background-attachment: fixed; 
     background-size: cover;
 }
@@ -133,16 +147,28 @@ select{
     padding: 10px;
 }
 .book-sort-div{
-    width: 100;
-    height: 150vh;
-    background-color: white;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 1%;
+    /* padding: 10%; */
+    
+    /* height: 150vh; */
+    /* background-color: rgb(140, 146, 145); */
     display: flex;
 }
-.book-sort{
-    width: 40;
+
+/* .book-sort-div img{ */
+    /* margin-right: 70px; */
+}
+img{
+
+}
+ .book-sort{
+    width: 60%;
     height: 70vh;
-    background-color: white;
-    padding: 30px;
+    background-color: rgb(7, 59, 80);
+    padding: 20px;
+    /* margin-left: 50px; */
 }
 .book-sort label{
     font-size: 20px;
@@ -150,10 +176,12 @@ select{
     margin-top: 50px;
     width: 10%;
     color: black;
+    /* margin-left: 30px; */
+    
 
 }
-.book-sort-p{
-    font-size: 20;
+.book-sort p{
+    font-size: 40%;
     font-weight: bolder;
     color: green;
     box-shadow: rgba(0, 128, 0, 0.315);
@@ -189,9 +217,73 @@ select{
     text-align: center;
 }
 
+.tour-show{
+    width: 100%;
+    height: 130vh;
+    background-color: white
+}
+
+.contactus-form{
+    background-color: honeydew;
+    width: 60%;
+    height: 100vh
+    margin-top: 2%;
+    padding: 0.5%;
+    margin-left: 10%;
+
+}
+.contactus-form h1{
+    font-size: 80px;
+}
+.contactus-form label{
+    margin-left: 10%;
+    width: 50%;
+    height: 20%;
+    font-size: 35px;
+
+}
+.contactus-form input{
+    width: 50%;
+    height: 8%;
+    margin-left: 2%;
+}
+/* .contactus-form-button{ */
+    /* width: 10%; */
+    /* height: 8%; */
+    /* margin-right: 5%; */
+
+.gallery-div{
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    padding: 5%;
 
 
+}
+.SIGNIN-containner{
+    background-color: cornsilk;
+    width: 70%;
+    height: 60vh;
+    margin-left: 6%;
+    margin-top:1%;
+}
+.sign-in {
+    margin-left: 20%;
+    padding: 5%;
 
+
+}
+.sign-in label{
+    font-size: 30px;
+    
+
+
+}
+.sign-in input{
+    padding: 3%;
+    width: 40%;
+    /* height: 40%; */
+}
 
 
 
